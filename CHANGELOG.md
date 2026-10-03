@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.2] — 2026-10-03
+
+### Fixed
+- `get_cumulus_status` returned 404: Migros moved the Cumulus card data from `/v1/customers/cumulus/details` to `/v1/cumulus-profile`, which is what the web app calls now. The tool returns the points balance for the current period, the Cumulus number and the cardholder; level and lifetime points are no longer in the response.
+
 ## [0.3.1] — 2026-04-28
 
 ### Documentation

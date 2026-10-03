@@ -147,7 +147,7 @@ If you've **explicitly pinned** a version in your config (e.g. `migros-mcp@0.3.0
 | `get_orders` | List your online orders, paginated, filterable by status. |
 | `get_order_details` | Full details of a single order by id. |
 | `get_checkout_link` | Returns the URL to open in your browser to complete checkout. |
-| `get_cumulus_status` | Cumulus loyalty card status: points balance, level, cardholder. |
+| `get_cumulus_status` | Cumulus loyalty card status: points balance, card number, cardholder. |
 | `get_in_store_receipts` | List in-store receipts (Kassenbons) over a date range. |
 | `get_receipt_details` | URL to view a single in-store receipt's line items in the browser. |
 | `get_cumulus_coupons` | Active personalized Cumulus coupons. |
